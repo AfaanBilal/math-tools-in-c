@@ -8,7 +8,7 @@ Author URL: **[Google+](https://google.com/+AfaanBilal)**
 
 ## Introduction
 **Math Tools in C** is a collection of small C programs that I wrote when I was either learning C or needed a quick program
-to solve a particular problem.
+to solve a particular mathematical problem.
 
 ## Contributing
 All contributions are welcome. Please create an issue first for any feature request
