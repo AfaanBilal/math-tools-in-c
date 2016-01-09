@@ -15,7 +15,7 @@ int main()
 {
 	int a, n, i = 1;	
     
-	printf("Enter a number: ");
+    printf("Enter a number: ");
 	scanf("%d", &a);
 	
     printf("Enter the number of multiples required: ");

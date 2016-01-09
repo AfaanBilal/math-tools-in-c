@@ -18,7 +18,7 @@ int main()
     
     input:
     
-	printf("Enter x1: ");
+    printf("Enter x1: ");
     scanf("%f", &x1);
 	
     printf("Enter y1: ");

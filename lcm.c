@@ -13,15 +13,15 @@
 
 int main()
 {
-	int a, b, LCM;
-	
+    int a, b, LCM;
+    
     printf("Enter the first number  : ");
     scanf("%i", &a);
-	
+    
     printf("Enter the second number : ");
     scanf("%i", &b);
 
-	LCM = (a > b) ? a : b;
+    LCM = (a > b) ? a : b;
 
     while (1)
     {

@@ -35,7 +35,7 @@ int main()
 		printf("%i is an armstrong number.", x);
 	else
 		printf("%i is not an armstrong number.", x);
-		
+	
     getch();
 	return 0;
 }

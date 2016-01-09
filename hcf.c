@@ -13,7 +13,7 @@
 
 int main()
 {
-	int a, b, r, orgA, orgB, HCF;
+    int a, b, r, orgA, orgB, HCF;
 	
     printf("Enter the first number  : ");
     scanf("%i", &orgA);
