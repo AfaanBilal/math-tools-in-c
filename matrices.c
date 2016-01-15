@@ -30,7 +30,7 @@ typedef int bool;
 /// <signature>
 /// <summary> Matrix structure: int m, n; float ** E; </summary>
 /// </signature>
-typedef struct Matrix
+typedef struct
 {
 	int m, n;
 	float ** E;
