@@ -30,13 +30,11 @@ typedef int bool;
 /// <signature>
 /// <summary> Matrix structure: int m, n; float ** E; </summary>
 /// </signature>
-struct Matrix
+typedef struct Matrix
 {
 	int m, n;
 	float ** E;
-};
-
-typedef struct Matrix Matrix;
+} Matrix;
 
 /// <signature>
 /// <summary> Allocates memory for the matrix. </summary>
