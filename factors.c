@@ -13,20 +13,20 @@
 
 int main()
 {
-	int n, i = 1;
-    
-	printf("Enter the number: ");
-	scanf("%d", &n);
-	
+    int n, i = 1;
+
+    printf("Enter the number: ");
+    scanf("%d", &n);
+
     printf("Factors of %d: ", n);
-	while (i <= n)
-	{
-		if (n % i == 0)
-			printf("%d ", i);
-			
-		i++;
-	}
-		
-	getch();
-	return 0;
+    while (i <= n)
+    {
+        if (n % i == 0)
+            printf("%d ", i);
+            
+        i++;
+    }
+        
+    getch();
+    return 0;
 }

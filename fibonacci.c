@@ -26,14 +26,14 @@ void fibonacci(int n)
 
 int main()
 {
-	int a;
-    
-	printf("Enter a number: ");
-	scanf("%i", &a);
-    
-	printf("Fibonacci series upto %i: \n", a);
-	fibonacci(a);
-    
+    int a;
+
+    printf("Enter a number: ");
+    scanf("%i", &a);
+
+    printf("Fibonacci series upto %i: \n", a);
+    fibonacci(a);
+
     getch();
-	return 0;
+    return 0;
 }

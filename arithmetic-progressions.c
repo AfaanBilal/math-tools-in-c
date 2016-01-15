@@ -27,7 +27,7 @@ int main()
     while ( menuChoice < 1 || menuChoice > 3 )
     {
         printf("\n Invalid Choice!\n"
-               " Please enter your choice properly again: ");
+                " Please enter your choice properly again: ");
         scanf("%i", &menuChoice);
     }
 
@@ -38,7 +38,7 @@ int main()
         int a, n, d, an;
         
         printf("\n\n [*** Finding nth term (General term) ***]\n"
-               "\n Enter the value of 'a': "); 
+                "\n Enter the value of 'a': "); 
         scanf("%i", &a);
         printf("\n Enter the value of 'n': ");
         scanf("%i", &n);
@@ -56,7 +56,7 @@ int main()
         int a, n, d, sn;
         
         printf("\n\n [*** Finding sum of 'n' terms (Sn) ***]\n"
-               "\n Enter the value of 'a': ");
+                "\n Enter the value of 'a': ");
         scanf("%i", &a);
         printf("\n Enter the value of 'n': ");
         scanf("%i", &n);
@@ -74,7 +74,7 @@ int main()
         int an, n, d, a;
         
         printf("\n\n [*** Finding 'a' (first term) ***]\n"
-               "\n Enter the value of nth term: ");
+                "\n Enter the value of nth term: ");
         scanf("%i", &an);
         printf("\n Enter the value of 'n': ");
         scanf("%i", &n);
@@ -87,7 +87,7 @@ int main()
         }
         break;
     }
-    
+
     getch();
     return 0;
 }

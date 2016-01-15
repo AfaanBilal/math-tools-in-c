@@ -21,13 +21,13 @@ long int factorial(int n)
 
 int main()
 {
-	int a;
-    
-	printf("Input a number: ");
-	scanf("%i", &a);
-    
-	printf("Factorial of %i is %i", a, factorial(a));
-    
+    int a;
+
+    printf("Input a number: ");
+    scanf("%i", &a);
+
+    printf("Factorial of %i is %i", a, factorial(a));
+
     getch();
-	return 0;
+    return 0;
 }

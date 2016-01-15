@@ -14,10 +14,10 @@
 int main()
 {
     int a, b, LCM;
-    
+
     printf("Enter the first number  : ");
     scanf("%i", &a);
-    
+
     printf("Enter the second number : ");
     scanf("%i", &b);
 
@@ -34,7 +34,7 @@ int main()
         else
             LCM++; 
     }
-    
+
     getch();
-	return 0;
+    return 0;
 }

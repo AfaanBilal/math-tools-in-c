@@ -14,26 +14,26 @@
 int main()
 {
     int a, b, r, orgA, orgB, HCF;
-	
+
     printf("Enter the first number  : ");
     scanf("%i", &orgA);
-	
+
     printf("Enter the second number : ");
     scanf("%i", &orgB);
 
-	if (orgA > orgB)
-	{
-		a = orgA;
-		b = orgB;
-	}
-	else
-	{
-		a = orgB;
-		b = orgA;
-	}
+    if (orgA > orgB)
+    {
+        a = orgA;
+        b = orgB;
+    }
+    else
+    {
+        a = orgB;
+        b = orgA;
+    }
 
-	//Euclids Lemma: a = b * q + r where 0 <= r < q; 
-	
+    //Euclids Lemma: a = b * q + r where 0 <= r < q; 
+
     while (b >= 1)
     {
         if (a % b == 0)
@@ -53,7 +53,7 @@ int main()
             b = r;
         }    
     }
-    
+
     getch();
-	return 0;
+    return 0;
 }

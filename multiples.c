@@ -13,21 +13,21 @@
 
 int main()
 {
-	int a, n, i = 1;	
-    
+    int a, n, i = 1;	
+
     printf("Enter a number: ");
-	scanf("%d", &a);
-	
+    scanf("%d", &a);
+
     printf("Enter the number of multiples required: ");
-	scanf("%d", &n);
-	
+    scanf("%d", &n);
+
     printf("%d multiples of %d :", n, a);
-	while(i <= n)
-	{
-		printf("\n %d x %d = %d", a, i, a * i);
-		i++;
-	}
-    
+    while(i <= n)
+    {
+        printf("\n %d x %d = %d", a, i, a * i);
+        i++;
+    }
+
     getch();
-	return 0;
+    return 0;
 }

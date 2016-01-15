@@ -26,16 +26,16 @@ int isArmstrong(int n)
 
 int main()
 {
-	int x;
-    
-	printf("Enter a number: ");
-	scanf("%i", &x);
-    
-	if (isArmstrong(x))
-		printf("%i is an armstrong number.", x);
-	else
-		printf("%i is not an armstrong number.", x);
-	
+    int x;
+
+    printf("Enter a number: ");
+    scanf("%i", &x);
+
+    if (isArmstrong(x))
+        printf("%i is an armstrong number.", x);
+    else
+        printf("%i is not an armstrong number.", x);
+
     getch();
-	return 0;
+    return 0;
 }
