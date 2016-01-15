@@ -12,27 +12,18 @@
 #include <stdio.h>
 #include <math.h>
 
-#define false 0
-#define true  1
-
-typedef int bool;
-
-bool isPrime(int n)
+int isPrime(int n)
 {
-	int i = 2;
+	int i = 1, sqr = sqrt(n);
 	
     if (n == 1)
-		return false;
+		return 0;
 	
-	while (i < sqrt(n))
-	{
+	while (++i < sqr)
 		if (n % i == 0)
-			return false;
-            
-		i++;
-	}
+			return 0;
 	
-	return true;	
+	return 1;	
 }
 
 int main()
