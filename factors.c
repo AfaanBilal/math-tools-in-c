@@ -19,7 +19,7 @@ int main()
     scanf("%d", &n);
 
     printf("Factors of %d: ", n);
-    while (i <= n)
+    while (i <= (n / 2))
     {
         if (n % i == 0)
             printf("%d ", i);
