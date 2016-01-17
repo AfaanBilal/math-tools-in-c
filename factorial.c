@@ -11,14 +11,14 @@
 
 #include <stdio.h>
 
-long int factorial(int n)
+unsigned long int factorial(unsigned int n)
 {
 	return (n == 0) ? 1 : n * factorial(n - 1);
 }
 
 int main()
 {
-    int a;
+    unsigned int a;
 
     printf("Input a number: ");
     scanf("%i", &a);
