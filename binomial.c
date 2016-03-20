@@ -48,7 +48,7 @@ void printBinomialExpansion(int a, int b, unsigned int n)
     for (r = 0; r <= n; r++)
     {
         result += ncr(n, r) * power(a, n - r) * power(b, r);
-        printf("%d", result);
+        printf("%d", ncr(n, r) * power(a, n - r) * power(b, r));
         if (r != n) printf(" + ");
     }
     
