@@ -53,7 +53,6 @@ void printBinomialExpansion(int a, int b, unsigned int n)
     }
     
     printf("\n = %d", result);
-    
 }
 
 int main()
