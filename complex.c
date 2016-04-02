@@ -54,6 +54,16 @@ double mod(Complex c)
     return sqrt(c.real * c.real + c.imaginary * c.imaginary);
 }
 
+Complex inverse(Complex c)
+{
+    Complex result;
+    double md = mod(c);
+    result.real = c.real / ( md * md );
+    result.imaginary = - ( c.imaginary / ( md * md ) );
+    return result;
+}
+
+
 int resolvePowerOfi(int powerOfi)
 {
     return powerOfi % 4;
@@ -126,6 +136,16 @@ void main()
     printComplex(c2);
     printf("): ");
     printComplex(conjugate(c2));
+    
+    printf("\nINVERSE (");
+    printComplex(c1);
+    printf("): ");
+    printComplex(inverse(c1));
+    
+    printf("\nINVERSE (");
+    printComplex(c2);
+    printf("): ");
+    printComplex(inverse(c2));
     
     printf("\nMODULUS (");
     printComplex(c1);
