@@ -49,6 +49,16 @@ Complex conjugate(Complex c)
     return result;
 }
 
+double mod(Complex c)
+{
+    return sqrt(c.real * c.real + c.imaginary * c.imaginary);
+}
+
+int resolvePowerOfi(int powerOfi)
+{
+    return powerOfi % 4;
+}
+
 void printComplex(Complex c)
 {
     if (c.real == (int)c.real)
@@ -80,14 +90,10 @@ void printComplex(Complex c)
     }
 }
 
-double mod(Complex c)
-{
-    return sqrt(c.real * c.real + c.imaginary * c.imaginary);
-}
-
 void main()
 {
     Complex c1, c2;
+    int powerOfi;
     
     printf("Enter the first complex number:\n");
     printf("Real part: ");
@@ -98,7 +104,9 @@ void main()
     printf("Real part: ");
     scanf("%lf", &(c2.real)); 
     printf("Imaginary part: ");
-    scanf("%lf", &(c2.imaginary)); 
+    scanf("%lf", &(c2.imaginary));
+    printf("Enter a power of i: ");
+    scanf("%d", &powerOfi);
         
     printf("\nSUM: ");
     printComplex(add(c1, c2));
@@ -126,6 +134,8 @@ void main()
     printf("\nMODULUS (");
     printComplex(c2);
     printf("): %.2lf", mod(c2));
+    
+    printf("\nResolved power of i (%d) : %d", powerOfi, resolvePowerOfi(powerOfi));
     
     getch();    
 }
