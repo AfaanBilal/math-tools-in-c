@@ -7,11 +7,11 @@
  *  (c) Afaan Bilal (https://google.com/+AfaanBilal)
  *
  */
+
+#include <stdio.h>
  
- #include <stdio.h>
- 
- int main()
- {
+int main()
+{
      int numDays, years, months, days;
      printf("Enter number of days: ");
      scanf("%d", &numDays);
@@ -35,5 +35,5 @@
      
      getch();
      return 0;
- }
+}
  

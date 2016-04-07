@@ -8,7 +8,6 @@
  *
  */
  
-
 #include <stdio.h>
 
 int isArmstrong(int n)

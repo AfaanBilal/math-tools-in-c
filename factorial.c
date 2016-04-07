@@ -8,7 +8,6 @@
  *
  */
  
-
 #include <stdio.h>
 
 unsigned long int factorial(unsigned int n)

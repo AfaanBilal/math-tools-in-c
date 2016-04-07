@@ -7,7 +7,7 @@
  *  (c) Afaan Bilal (https://google.com/+AfaanBilal)
  *
  */
- 
+
 /*
  * Functions:
  *		- Determinant

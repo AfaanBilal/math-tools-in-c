@@ -8,7 +8,6 @@
  *
  */
  
-
 #include <stdio.h>
 
 int areAmicable(int m, int n)
