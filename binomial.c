@@ -7,7 +7,7 @@
  *  (c) Afaan Bilal (https://google.com/+AfaanBilal)
  *
  */
- 
+
 #include <stdio.h>
 
 unsigned long int factorial(unsigned int n)
