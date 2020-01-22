@@ -1,8 +1,7 @@
 Math Tools in C
 ==============
 
-Author: **Afaan Bilal ([@AfaanBilal](https://github.com/AfaanBilal))**   
-Author URL: **[Google+](https://google.com/+AfaanBilal)**
+Author: **[Afaan Bilal](https://afaan.me)**  
 
 ##### Project Page: [afaan.ml/math-tools-in-c](https://afaan.ml/math-tools-in-c)
 
