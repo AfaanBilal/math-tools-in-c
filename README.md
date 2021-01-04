@@ -1,9 +1,9 @@
 Math Tools in C
 ==============
 
-Author: **[Afaan Bilal](https://afaan.me)**  
+Author: **[Afaan Bilal](https://afaan.dev)**  
 
-##### Project Page: [afaan.ml/math-tools-in-c](https://afaan.ml/math-tools-in-c)
+##### Project Page: [afaan.ml/math-tools-in-c](https://afaan.dev/math-tools-in-c)
 
 ## Introduction
 **Math Tools in C** is a collection of small C programs that I wrote when I was either learning C or needed a quick program
