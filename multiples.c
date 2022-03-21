@@ -2,9 +2,9 @@
  *  Math Tools in C 
  *      MULTIPLES
  *
- *  https://afaan.ml/math-tools-in-c 
+ *  https://afaan.dev/math-tools-in-c 
  * 
- *  (c) Afaan Bilal (https://google.com/+AfaanBilal)
+ *  (c) Afaan Bilal (https://afaan.dev)
  *
  */
 
