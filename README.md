@@ -11,7 +11,7 @@ to solve a particular mathematical problem.
 
 ## List of Programs
 | Program                    | Description                                                    |
-| -------------------------- | -------------------------------------------------------------- |
+| :------------------------- | :------------------------------------------------------------- |
 | Amicable                   | Check if two numbers are amicable                              |
 | Arithmetic Progressions    | Some quick operations on arithmetic progressions               |
 | Armstrong                  | Check if a number is an armstrong number                       |
